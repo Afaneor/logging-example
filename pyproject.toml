@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "logging-tutorial"
+version = "0.1.0"
+description = ""
+authors = ["npavlin <np@letsnova.ru>"]
+readme = "README.md"
+packages = [{include = "logging_tutorial"}]
+
+[tool.poetry.dependencies]
+python = "^3.13"
+colorama = "^0.4.6"
+pyyaml = "^6.0.2"
+elasticsearch = "^8.15.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
